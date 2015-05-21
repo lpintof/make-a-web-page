@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+ <html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Luis Pinto's Notes</title>
+	<link rel="stylesheet" href="project1.css">
+
+<body>
+<h1>
+Nanodegree Intro to programming HTML + CSS Basics
+</h1>
+
+	<h2>
+		Table of Contents
+	</h2>
+	<div class = "toc">
+		<ul class = "atoc">
+			<li><a href="#the-internet">The Internet</a></li>
+			<li><a href="#HTML">HTML</a></li>
+			<li><a href="#container-elements">Container Elements</a></li>
+			<li><a href="#CSS">CSS</a></li>
+			<li><a href="#Repetition">Repetition</a></li>
+			<li><a href="#DOM">The Document Object Model</a></li>
+			<li><a href="#boxes-within-boxes">Boxes Within Boxes</a></li>
+			<li><a href="#order-matters">Order Matters</a></li>
+			<li><a href="#specifics-matter">Specifics Matter</a></li>
+			<li><a href="#inheritance">Inheritance</a></li>
+			<li><a href="#selectors">Selectors</a></li>
+			<li><a href="#box-sizing">Box Sizing</a></li>
+			<li><a href="#code-test-refine">Code Test Refine</a></li>
+		</ul>
+
+
+
+	</div>
+
+
+	<h2>
+		The Internet
+	</h2>
+	<div class = "concepts" id ="the-internet">
+		<a href="http://imgur.com/zJdEP5c"><img src="http://i.imgur.com/zJdEP5c.jpg?1" alt = "The Internet" title="source: imgur.com" /></a>
+		<p>
+			The internet is a vast network of connected computers in an enourmous network.  The main language used in the web is <b>HTML </b> <em>Hypertext Markup Language.</em>
+		</p>
+	</div>
+	<div class = "tips">
+		<p>
+			The internet nowadays is EVERYWHERE, and thanks to this course, we will be able to understand how it works (on a browser display level at least.)
+
+		</p>
+
+	</div>
+
+	<h2>
+		HTML
+	</h2>
+
+	<div class = "concepts" id = "HTML">
+		<p>
+			Html can contain images, links, videos, etc. It uses <em> tags </em>.Html is basicaly the structure of a website, analog to a blue print, in which HTML is the Rooms in it. And CSS is the carpet, the wallpaper, furniture, etc. <br>
+      		HTML can be viewed as the <em>rectangles</em> that make the websites' visual <b>structure</b>.
+      		
+      </p>
+      <img src="http://computing.dcu.ie/~HUMPHRYS/Notes/Networks/tanenbaum/7-27.jpg" alt = "HTML">
+	</div>
+	<div class ="tips">
+		<p>
+			In this <a href="https://youtu.be/eX6tWWOoXdk">link</a> we can take a look at a great explanation.
+		</p>
+
+	</div>
+
+	<h2>
+		Container Elements
+	</h2>
+	<div class = "concepts" id = "container-elements">
+		<p>
+			<p>Some elements such as div and span will help us <em>contain</em> the content of the website. Please read further into <a href="#boxes-within-boxes">boxes within boxes</a>.
+		</p>
+		<img src="http://jawa9000.com/images/tutorials/Expandables/HTML_components.png" alt = "Container Elements">
+	</div>
+
+	<h2>
+		CSS
+	</h2>
+	<div class = "concepts" id = "CSS">
+		<p>
+			HTML will tell us what the website structure is like, but it will ask CSS how it will be "decorated". <br>
+        <b>CSS </b>means <em>Cascading Style Sheets</em>, it is a style sheet language used for describing the look of html. 
+    	</p>
+    	<img src="https://en-support.files.wordpress.com/2011/09/css-selectors-lrg.png" alt = "CSS">
+	</div>
+	<div class = "tips">
+		<p>
+			Notice the word CASCADING, which gives us a great </p>
+
+	</div>
+
+	<h2>
+		Repetition
+	</h2>
+	<div class = "concepts" id = "Repetition">
+		<p>
+			One of the most important futures of programming is <em>avoiding repetetion</em>. Repetition is the enemy, or challenge to be taken by a programmer. If it can be repeated, it can be broken down to a process that makes it reiterative. Computers are stupid, thet don't get bored and can do a task as many times as it can, so we should take advantage of that making them do the <em>hard work</em>. 
+
+		</p>
+	</div>
+	<div class = "tips">
+		<p>
+			CSS is a great tool to avoid repetition, since it will help us replicate the behavior of one part, across the DOM, whenever we want it to. 
+			<br>
+			Avoiding repetition makes it easier for the programmer to make further changes, and to correct errors faster.
+		</p>
+
+	</div>
+
+	<h2>
+		The Document Object Model
+	</h2>
+	<div class = "concepts" id = "DOM">
+		<p>
+			More commonly know as <b>DOM</b>, is how web browsers use the info contained in <em>HTML</em> and display it for us. 
+		</p>
+		<img class = "dom" src="http://www.w3schools.com/js/pic_htmltree.gif" alt= "DOM">
+
+	</div>
+	<div class = "tips">
+		<p>
+			A great tool to developers is Google Chrome's <b>Developer Tools</b>. In which we are able to see how the webpages "are built".
+		</p>
+
+	</div>
+
+	<h2>
+		Boxes within boxes
+	</h2>
+
+	<div class = "concepts" id ="boxes-within-boxes">
+		<p>
+			HTML <em>visually</em> is just <em>boxes within boxes</em>. In which we can divide websites. Modulating our content within boxes, <b>helps us</b> to move them fairly easily and rearrange them according to our needs. Start with the boxes, and refine from there.
+		</p>
+	</div>
+	<div class = "tips">
+		<p>
+			To copy a website from a pdf or an image, start by dividing it by boxes. <em>Html</em> will be basically the responsible for them, and <em>CSS</em> will take care of the way they will look.
+		</p>
+	</div>
+
+	<h2>
+		Order Matters
+	</h2>
+	<div class = "concepts" id ="order-matters">
+		<p>
+			The hierarchy a browser uses to "style" a website is:
+		</p>
+			<ol>
+				<li>Default Style of browser</li>
+				<li>Style Sheet in separate file (the main focus of our study)</li>
+				<li>Stylesheet inside HTML (not recommended)</li>
+				<li>Inline Style in an element (should be avoided)</li>
+			</ol>
+		
+
+	</div>
+
+	<h2>
+		Specifics Matter
+	</h2>
+	<div class = "concepts" id = "specifics-matter">
+		<p>
+			The more specific a CSS rule is, the more straight it will be applied. Compare to country laws vs, school laws. Chewing gum is legal in the US, in California, in Camarillo, but in Camarillo High School you are not allowed to chew gum. The same happens with CSS, the most specific law is the one that will be applied.
+
+		</p>
+
+	</div>
+	<div class = "tips">
+		<p>Compare to:
+		
+		<ul>
+			<li>Country Law</li>
+			<li>State Law</li>
+			<li>Municipality Law</li>
+			<li>School Law</li>
+		</ul>
+		<p>
+		The most <em>SPECIFIC</em> rule takes effect.
+		</p>
+	</div>
+
+	<h2>
+		Inheritance
+	</h2>
+	<div class = "concepts" id = "inheritance">
+		<p>
+			This is a key future of CSS. It simplifies, since we don’t have to specify everything contained in the document. The “child” inherits from the “ancestor” its properties, unless we specify its properties. We return to the idea to <em>avoid repetition</em>.
+		</p>
+	</div>
+	<div class = "tips"> 
+		<p>
+			Read this excrept from wikipedia: “In general, descendant elements inherit text-related properties, but box-related properties are not inherited.  Properties that can be inherited are color, font, letter-spacing, line-height, list-style, text-align, text-indent, text-transform, visibility, white-space and word-spacing. Properties that cannot be inherited are background, border, display, float and clear, height and width, margin, min- and max-height and -width, outline, overflow, padding, position, text-decoration, vertical-align and z-index.”1. 
+		</p>
+	</div>
+	<div class = "tips">
+		<p>
+			<a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">CSS Inheritance Wikipedia Link</a>
+
+		</p>
+
+		
+	</div>
+
+	<h2>
+		Selectors
+	</h2>
+	<div class = "concepts" id = "selectors">
+		<p>
+			Selectors are what allows you to target specific HTML elements and apply style to them. 
+		</p>
+		<ul>
+			<li>ID Selector</li>
+			<li>Class Selector</li>
+			<li>Tag Selector</li>
+			<li>Attribute Selector</li>
+			<li>Positional Selector</li>
+			<li>Other Selectors</li>
+		</ul>
+	</div>
+	<div class = "tips">
+		<p>
+			Take a look at this link for great reference: <a href="https://css-tricks.com/how-css-selectors-work/">How CSS Selectors Work</a>
+		</p>	
+	</div>
+
+	<h2>
+		Box Sizing
+	</h2>
+	<div class = "concepts" id = "box-sizing">
+		<p>
+			Among the tips that Jessica addressed where:
+		</p>
+			<ol>
+				<li>HTML elements are boxes, and each has 4 components</li>
+				<li>Because there are so many components, it can be hard to get the box how we want it to</li>
+				<li>There are two techiques with sizing issues:
+					<ol>
+						<li>Set sizes in Percentages instead of pixels</li>
+						<li>Set the <span class = "cajitas">box-sizing</span>attribute to <span class = "cajitas">border box</span> for every element.</li>
+					</ol>
+
+				</li>
+			</ol>
+		
+	</div>
+	<h2>
+		Code, Test, Refine
+	</h2>
+	<div class = "concepts" id = "code-test-refine">
+			<p>
+				Guideline:
+
+			</p>
+			<ol>
+				<li>Look for natural boxes</li>
+				<li>Look for repeated styles and semantics</li>
+				<li>Write HTML</li>
+				<li>Apply Style, going from BIGGER to SMALLER</li>
+				<li>Fix Things</li>
+			</ol>
+		
+	</div>
+
+	<div class = "tips">
+		<p>
+			HAVE FUN! 
+		</p>
+
+	</div>
+
+
+
+
+
+
+
+</body>		
+
+</html>
